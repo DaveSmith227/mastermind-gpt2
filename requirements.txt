@@ -1,0 +1,15 @@
+-f https://download.pytorch.org/whl/nightly/cpu/torch_nightly.html
+torch
+transformers==2.3.0
+tqdm
+spacy
+ftfy
+torch_nightly
+starlette
+uvicorn
+python-multipart
+aiofiles
+aiohttp
+jinja2
+scikit-learn
+psutil

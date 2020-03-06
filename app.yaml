@@ -1,0 +1,11 @@
+runtime: custom
+env: flex
+readiness_check:
+  app_start_timeout_sec: 1800
+resources:
+  cpu: 1
+  memory_gb: 2
+  disk_size_gb: 14
+
+# Google app engine deployment tip
+# Prior to running 'gcloud app deploy', set global docker build timeout with command 'gcloud config set app/cloud_build_timeout 3200' #60 minss
