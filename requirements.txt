@@ -1,6 +1,6 @@
 -f https://download.pytorch.org/whl/nightly/cpu/torch_nightly.html
 torch
-transformers==2.3.0
+transformers==4.30.0
 tqdm
 spacy
 ftfy
